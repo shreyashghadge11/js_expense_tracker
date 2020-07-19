@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body>
+    <div class="container">
+        <h1 class="head">
+            EXPENSE TRACKER
+        </h1>
+        <div class="calculate">
+            <h2 class="budget">Available Budget</h2>
+            <h1 class="no">0.00</h1>
+            <div class="income">
+                <h1>INCOME</h1>
+                <h2>0.00</h2>
+            </div>
+            <div class="expense">
+                <h1>EXPENSES</h1>
+                <h2>0.00</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+        <form id="form">
+            <select id="option">
+                <option value="add">+</option>
+                <option value="sub">-</option>
+            </select>
+            <input id="description" type="text" placeholder="Description">
+            <input id="value" type="number" placeholder="Value">
+            <button type="" id="btn">Add</button>
+        </form>
+    </div>
+    <div class="container3">
+        <div class="incomeval">
+            <h2>INCOME</h2>
+            
+        </div>
+        <div class="expenseval">
+            <h2>EXPENSES</h2>
+            
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
